@@ -1,6 +1,8 @@
 source 'http://rubygems.org'
 
 ruby '2.7.6'
+gem 'appmap', :groups => [:development, :test]
+
 gem 'rack', '2.2.6.4'
 gem 'rails', '6.1.7.3'
 gem 'rake'

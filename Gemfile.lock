@@ -98,6 +98,11 @@ GEM
     addressable (2.8.1)
       public_suffix (>= 2.0.2, < 6.0)
     ansi (1.5.0)
+    appmap (0.99.1)
+      activesupport
+      method_source
+      rack
+      reverse_markdown
     arbre (1.5.0)
       activesupport (>= 3.0.0, < 7.1)
       ruby2_keywords (>= 0.0.2, < 1.0)
@@ -597,6 +602,7 @@ DEPENDENCIES
   active_record_extended
   activeadmin (~> 2.13.1)
   activerecord-import (= 1.4.1)
+  appmap
   aws-sdk-s3
   blazer
   bootsnap
