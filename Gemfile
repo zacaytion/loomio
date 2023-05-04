@@ -64,6 +64,8 @@ gem 'video_info'
 gem 'blazer'
 gem 'terminal-table'
 gem 'tzinfo-data'
+gem 'net-http'
+gem 'uri', '0.10.0'    # force the default version for ruby 2.7
 
 group :development, :test do
   gem 'listen'

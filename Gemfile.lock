@@ -367,6 +367,8 @@ GEM
     multi_json (1.15.0)
     multi_xml (0.6.0)
     multipart-post (2.3.0)
+    net-http (0.3.2)
+      uri
     net-imap (0.3.4)
       date
       net-protocol
@@ -575,6 +577,7 @@ GEM
       unf_ext
     unf_ext (0.0.8.2)
     unicode-display_width (2.2.0)
+    uri (0.10.0)
     uuidtools (2.2.0)
     video_info (4.0.0)
       iso8601 (~> 0.13.0)
@@ -635,6 +638,7 @@ DEPENDENCIES
   listen
   lograge
   maxminddb
+  net-http
   nokogiri
   oj
   paper_trail (~> 14.0.0)
@@ -672,6 +676,7 @@ DEPENDENCIES
   twitter-text!
   tzinfo-data
   uglifier
+  uri (= 0.10.0)
   uuidtools
   video_info
   webmock
