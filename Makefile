@@ -24,9 +24,6 @@ public/blient/vue: npm_install
 	cd vue
 	npm run build
 
-schema.sql: db_setup
-	pg_dump -h localhost -p 5432 -U postgres --clean --schema-only --create -f schema.sql loomio_development
-
 channel_install:
 	cd channel_server
 	npm install
@@ -44,3 +41,13 @@ e2e_tests: e2e_tests_setup
 	# start channel_server
 	cd vue
 	npm run test:e2e:standalone
+
+# Artifacts to Use for New Implementation
+schema.sql: db_setup
+	pg_dump -h localhost -p 5432 -U postgres --clean --schema-only --create -f schema.sql loomio_development
+
+openapi.yml:
+	npx @appland/appmap openapi -o openapi.yml
+
+routes.txt:
+	bundle exec rails rails routes --expanded > routes.txt
