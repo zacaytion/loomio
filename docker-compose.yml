@@ -1,0 +1,30 @@
+version: '3'
+
+services:
+  db:
+    container_name: loomio-db
+    image: postgres:12.2
+    ports:
+      - "5432:5432"
+    restart: unless-stopped
+    networks:
+      - main
+    # env_file: ./.env
+    volumes:
+      - ./pgdata:/pgdata
+      - ./pgdumps:/pgdumps
+    environment:
+     - PGDATA=/pgdata
+     - POSTGRES_PASSWORD=postgres
+
+  redis:
+    container_name: loomio-redis
+    image: redis:5.0
+    ports:
+      - "6379:6379"
+    restart: unless-stopped
+    networks:
+      - main
+
+networks:
+  main:
