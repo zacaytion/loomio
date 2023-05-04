@@ -1,0 +1,1952 @@
+Syntax error found near Identifier (SET Clause): UPDATE events SET position = t.seq, position_key = CONCAT(REPEAT('0',5-LENGTH(CONCAT(t.seq))), t.seq)
+        FROM (
+          SELECT id AS id, row_number() OVER(ORDER BY sequence_id) AS seq
+          FROM events
+          WHERE parent_id = 562
+          AND   discussion_id IS NOT NULL
+        ) AS t
+      WHERE events.id = t.id and
+            events.position is distinct from t.seq
+Syntax error found near Identifier (SET Clause): UPDATE events SET position = t.seq, position_key = CONCAT(REPEAT('0',5-LENGTH(CONCAT(t.seq))), t.seq)
+        FROM (
+          SELECT id AS id, row_number() OVER(ORDER BY sequence_id) AS seq
+          FROM events
+          WHERE parent_id = 562
+          AND   discussion_id IS NOT NULL
+        ) AS t
+      WHERE events.id = t.id and
+            events.position is distinct from t.seq
+Syntax error found near Identifier (SET Clause): UPDATE events SET position = t.seq, position_key = CONCAT(REPEAT('0',5-LENGTH(CONCAT(t.seq))), t.seq)
+        FROM (
+          SELECT id AS id, row_number() OVER(ORDER BY sequence_id) AS seq
+          FROM events
+          WHERE parent_id = 561
+          AND   discussion_id IS NOT NULL
+        ) AS t
+      WHERE events.id = t.id and
+            events.position is distinct from t.seq
+Syntax error found near Identifier (SET Clause): UPDATE events SET position = t.seq, position_key = CONCAT(REPEAT('0',5-LENGTH(CONCAT(t.seq))), t.seq)
+        FROM (
+          SELECT id AS id, row_number() OVER(ORDER BY sequence_id) AS seq
+          FROM events
+          WHERE parent_id = 561
+          AND   discussion_id IS NOT NULL
+        ) AS t
+      WHERE events.id = t.id and
+            events.position is distinct from t.seq
+Syntax error found near Identifier (SET Clause): UPDATE events SET position = t.seq, position_key = CONCAT('00001-', CONCAT(REPEAT('0',5-LENGTH(CONCAT(t.seq) ) ), t.seq) )
+        FROM (
+          SELECT id AS id, row_number() OVER(ORDER BY sequence_id) AS seq
+          FROM events
+          WHERE parent_id = 563
+          AND   discussion_id IS NOT NULL
+        ) AS t
+      WHERE events.id = t.id and
+            events.position is distinct from t.seq
+Syntax error found near Identifier (SET Clause): UPDATE events SET position = t.seq, position_key = CONCAT(REPEAT('0',5-LENGTH(CONCAT(t.seq))), t.seq)
+        FROM (
+          SELECT id AS id, row_number() OVER(ORDER BY sequence_id) AS seq
+          FROM events
+          WHERE parent_id = 531
+          AND   discussion_id IS NOT NULL
+        ) AS t
+      WHERE events.id = t.id and
+            events.position is distinct from t.seq
+Syntax error found near Identifier (SET Clause): UPDATE events SET position = t.seq, position_key = CONCAT(REPEAT('0',5-LENGTH(CONCAT(t.seq))), t.seq)
+        FROM (
+          SELECT id AS id, row_number() OVER(ORDER BY sequence_id) AS seq
+          FROM events
+          WHERE parent_id = 531
+          AND   discussion_id IS NOT NULL
+        ) AS t
+      WHERE events.id = t.id and
+            events.position is distinct from t.seq
+Syntax error found near Identifier (SET Clause): UPDATE events SET position = t.seq, position_key = CONCAT('00001-', CONCAT(REPEAT('0',5-LENGTH(CONCAT(t.seq) ) ), t.seq) )
+        FROM (
+          SELECT id AS id, row_number() OVER(ORDER BY sequence_id) AS seq
+          FROM events
+          WHERE parent_id = 532
+          AND   discussion_id IS NOT NULL
+        ) AS t
+      WHERE events.id = t.id and
+            events.position is distinct from t.seq
+Syntax error found near Identifier (SET Clause): UPDATE events SET position = t.seq, position_key = CONCAT(REPEAT('0',5-LENGTH(CONCAT(t.seq))), t.seq)
+        FROM (
+          SELECT id AS id, row_number() OVER(ORDER BY sequence_id) AS seq
+          FROM events
+          WHERE parent_id = 530
+          AND   discussion_id IS NOT NULL
+        ) AS t
+      WHERE events.id = t.id and
+            events.position is distinct from t.seq
+Syntax error found near Identifier (SET Clause): UPDATE events SET position = t.seq, position_key = CONCAT(REPEAT('0',5-LENGTH(CONCAT(t.seq))), t.seq)
+        FROM (
+          SELECT id AS id, row_number() OVER(ORDER BY sequence_id) AS seq
+          FROM events
+          WHERE parent_id = 530
+          AND   discussion_id IS NOT NULL
+        ) AS t
+      WHERE events.id = t.id and
+            events.position is distinct from t.seq
+Syntax error found near Identifier (SET Clause): UPDATE events SET position = t.seq, position_key = CONCAT(REPEAT('0',5-LENGTH(CONCAT(t.seq))), t.seq)
+        FROM (
+          SELECT id AS id, row_number() OVER(ORDER BY sequence_id) AS seq
+          FROM events
+          WHERE parent_id = 592
+          AND   discussion_id IS NOT NULL
+        ) AS t
+      WHERE events.id = t.id and
+            events.position is distinct from t.seq
+Syntax error found near Identifier (SET Clause): UPDATE events SET position = t.seq, position_key = CONCAT(REPEAT('0',5-LENGTH(CONCAT(t.seq))), t.seq)
+        FROM (
+          SELECT id AS id, row_number() OVER(ORDER BY sequence_id) AS seq
+          FROM events
+          WHERE parent_id = 592
+          AND   discussion_id IS NOT NULL
+        ) AS t
+      WHERE events.id = t.id and
+            events.position is distinct from t.seq
+Syntax error found near Identifier (SET Clause): UPDATE events SET position = t.seq, position_key = CONCAT('00001-', CONCAT(REPEAT('0',5-LENGTH(CONCAT(t.seq) ) ), t.seq) )
+        FROM (
+          SELECT id AS id, row_number() OVER(ORDER BY sequence_id) AS seq
+          FROM events
+          WHERE parent_id = 598
+          AND   discussion_id IS NOT NULL
+        ) AS t
+      WHERE events.id = t.id and
+            events.position is distinct from t.seq
+Syntax error found near Identifier (SET Clause): UPDATE events SET position = t.seq, position_key = CONCAT(REPEAT('0',5-LENGTH(CONCAT(t.seq))), t.seq)
+        FROM (
+          SELECT id AS id, row_number() OVER(ORDER BY sequence_id) AS seq
+          FROM events
+          WHERE parent_id = 591
+          AND   discussion_id IS NOT NULL
+        ) AS t
+      WHERE events.id = t.id and
+            events.position is distinct from t.seq
+Syntax error found near Identifier (SET Clause): UPDATE events SET position = t.seq, position_key = CONCAT(REPEAT('0',5-LENGTH(CONCAT(t.seq))), t.seq)
+        FROM (
+          SELECT id AS id, row_number() OVER(ORDER BY sequence_id) AS seq
+          FROM events
+          WHERE parent_id = 591
+          AND   discussion_id IS NOT NULL
+        ) AS t
+      WHERE events.id = t.id and
+            events.position is distinct from t.seq
+Syntax error found near Identifier (SET Clause): UPDATE events SET position = t.seq, position_key = CONCAT('00001-', CONCAT(REPEAT('0',5-LENGTH(CONCAT(t.seq) ) ), t.seq) )
+        FROM (
+          SELECT id AS id, row_number() OVER(ORDER BY sequence_id) AS seq
+          FROM events
+          WHERE parent_id = 593
+          AND   discussion_id IS NOT NULL
+        ) AS t
+      WHERE events.id = t.id and
+            events.position is distinct from t.seq
+Syntax error found near Identifier (SET Clause): UPDATE events SET position = t.seq, position_key = CONCAT(REPEAT('0',5-LENGTH(CONCAT(t.seq))), t.seq)
+        FROM (
+          SELECT id AS id, row_number() OVER(ORDER BY sequence_id) AS seq
+          FROM events
+          WHERE parent_id = 551
+          AND   discussion_id IS NOT NULL
+        ) AS t
+      WHERE events.id = t.id and
+            events.position is distinct from t.seq
+Syntax error found near Identifier (SET Clause): UPDATE events SET position = t.seq, position_key = CONCAT(REPEAT('0',5-LENGTH(CONCAT(t.seq))), t.seq)
+        FROM (
+          SELECT id AS id, row_number() OVER(ORDER BY sequence_id) AS seq
+          FROM events
+          WHERE parent_id = 551
+          AND   discussion_id IS NOT NULL
+        ) AS t
+      WHERE events.id = t.id and
+            events.position is distinct from t.seq
+Syntax error found near Identifier (SET Clause): UPDATE events SET position = t.seq, position_key = CONCAT(REPEAT('0',5-LENGTH(CONCAT(t.seq))), t.seq)
+        FROM (
+          SELECT id AS id, row_number() OVER(ORDER BY sequence_id) AS seq
+          FROM events
+          WHERE parent_id = 550
+          AND   discussion_id IS NOT NULL
+        ) AS t
+      WHERE events.id = t.id and
+            events.position is distinct from t.seq
+Syntax error found near Identifier (SET Clause): UPDATE events SET position = t.seq, position_key = CONCAT(REPEAT('0',5-LENGTH(CONCAT(t.seq))), t.seq)
+        FROM (
+          SELECT id AS id, row_number() OVER(ORDER BY sequence_id) AS seq
+          FROM events
+          WHERE parent_id = 550
+          AND   discussion_id IS NOT NULL
+        ) AS t
+      WHERE events.id = t.id and
+            events.position is distinct from t.seq
+Syntax error found near Identifier (SET Clause): UPDATE events SET position = t.seq, position_key = CONCAT(REPEAT('0',5-LENGTH(CONCAT(t.seq))), t.seq)
+        FROM (
+          SELECT id AS id, row_number() OVER(ORDER BY sequence_id) AS seq
+          FROM events
+          WHERE parent_id = 541
+          AND   discussion_id IS NOT NULL
+        ) AS t
+      WHERE events.id = t.id and
+            events.position is distinct from t.seq
+Syntax error found near Identifier (SET Clause): UPDATE events SET position = t.seq, position_key = CONCAT(REPEAT('0',5-LENGTH(CONCAT(t.seq))), t.seq)
+        FROM (
+          SELECT id AS id, row_number() OVER(ORDER BY sequence_id) AS seq
+          FROM events
+          WHERE parent_id = 541
+          AND   discussion_id IS NOT NULL
+        ) AS t
+      WHERE events.id = t.id and
+            events.position is distinct from t.seq
+Syntax error found near Identifier (SET Clause): UPDATE events SET position = t.seq, position_key = CONCAT(REPEAT('0',5-LENGTH(CONCAT(t.seq))), t.seq)
+        FROM (
+          SELECT id AS id, row_number() OVER(ORDER BY sequence_id) AS seq
+          FROM events
+          WHERE parent_id = 540
+          AND   discussion_id IS NOT NULL
+        ) AS t
+      WHERE events.id = t.id and
+            events.position is distinct from t.seq
+Syntax error found near Identifier (SET Clause): UPDATE events SET position = t.seq, position_key = CONCAT(REPEAT('0',5-LENGTH(CONCAT(t.seq))), t.seq)
+        FROM (
+          SELECT id AS id, row_number() OVER(ORDER BY sequence_id) AS seq
+          FROM events
+          WHERE parent_id = 540
+          AND   discussion_id IS NOT NULL
+        ) AS t
+      WHERE events.id = t.id and
+            events.position is distinct from t.seq
+Syntax error found near TEXT Datatype Name (SELECT Results Clause): SELECT *, ?::text as query, ts_headline(discussions.description, plainto_tsquery(?), ?) as blurb FROM (SELECT "discussion_search_vectors"."discussion_id", "discussion_search_vectors"."search_vector", ts_rank_cd(?, search_vector, plainto_tsquery(?)) as rank FROM "discussion_search_vectors" INNER JOIN "discussions" ON "discussions"."id" = "discussion_search_vectors"."discussion_id" LEFT OUTER JOIN groups on discussions.group_id = groups.id LEFT OUTER JOIN discussion_readers dr ON dr.discussion_id = discussions.id AND (dr.user_id = ? ) WHERE (search_vector @@ plainto_tsquery(?)) AND (
+                         (discussions.group_id in (?)) OR
+                         (dr.id IS NOT ? AND dr.revoked_at IS ? AND dr.inviter_id IS NOT ?)
+                         OR (groups.parent_members_can_see_discussions = ? AND groups.parent_id IN (?))) ORDER BY rank DESC LIMIT $? OFFSET $?) subquery INNER JOIN discussions on subquery.discussion_id = discussions.id WHERE "discussions"."discarded_at" IS ? AND (rank > ?) ORDER BY rank DESC, last_activity_at DESC
+Syntax error found near TEXT Datatype Name (SELECT Results Clause): SELECT *, ?::text as query, ts_headline(discussions.description, plainto_tsquery(?), ?) as blurb FROM (SELECT "discussion_search_vectors"."discussion_id", "discussion_search_vectors"."search_vector", ts_rank_cd(?, search_vector, plainto_tsquery(?)) as rank FROM "discussion_search_vectors" INNER JOIN "discussions" ON "discussions"."id" = "discussion_search_vectors"."discussion_id" LEFT OUTER JOIN groups on discussions.group_id = groups.id LEFT OUTER JOIN discussion_readers dr ON dr.discussion_id = discussions.id AND (dr.user_id = ? ) WHERE (search_vector @@ plainto_tsquery(?)) AND (
+                         (discussions.group_id in (?)) OR
+                         (dr.id IS NOT ? AND dr.revoked_at IS ? AND dr.inviter_id IS NOT ?)
+                         OR (groups.parent_members_can_see_discussions = ? AND groups.parent_id IN (?))) ORDER BY rank DESC LIMIT $? OFFSET $?) subquery INNER JOIN discussions on subquery.discussion_id = discussions.id WHERE "discussions"."discarded_at" IS ? AND (rank > ?) ORDER BY rank DESC, last_activity_at DESC
+Syntax error found near TEXT Datatype Name (SELECT Results Clause): SELECT *, ?::text as query, ts_headline(discussions.description, plainto_tsquery(?), ?) as blurb FROM (SELECT "discussion_search_vectors"."discussion_id", "discussion_search_vectors"."search_vector", ts_rank_cd(?, search_vector, plainto_tsquery(?)) as rank FROM "discussion_search_vectors" INNER JOIN "discussions" ON "discussions"."id" = "discussion_search_vectors"."discussion_id" LEFT OUTER JOIN groups on discussions.group_id = groups.id LEFT OUTER JOIN discussion_readers dr ON dr.discussion_id = discussions.id AND (dr.user_id = ? ) WHERE (search_vector @@ plainto_tsquery(?)) AND (
+                         (discussions.group_id in (?)) OR
+                         (dr.id IS NOT ? AND dr.revoked_at IS ? AND dr.inviter_id IS NOT ?)
+                         OR (groups.parent_members_can_see_discussions = ? AND groups.parent_id IN (?))) ORDER BY rank DESC LIMIT $? OFFSET $?) subquery INNER JOIN discussions on subquery.discussion_id = discussions.id WHERE "discussions"."discarded_at" IS ? AND (rank > ?) ORDER BY rank DESC, last_activity_at DESC
+Syntax error found near TEXT Datatype Name (SELECT Results Clause): SELECT *, ?::text as query, ts_headline(discussions.description, plainto_tsquery(?), ?) as blurb FROM (SELECT "discussion_search_vectors"."discussion_id", "discussion_search_vectors"."search_vector", ts_rank_cd(?, search_vector, plainto_tsquery(?)) as rank FROM "discussion_search_vectors" INNER JOIN "discussions" ON "discussions"."id" = "discussion_search_vectors"."discussion_id" LEFT OUTER JOIN groups on discussions.group_id = groups.id LEFT OUTER JOIN discussion_readers dr ON dr.discussion_id = discussions.id AND (dr.user_id = ? ) WHERE (search_vector @@ plainto_tsquery(?)) AND (
+                         (discussions.group_id in (?)) OR
+                         (dr.id IS NOT ? AND dr.revoked_at IS ? AND dr.inviter_id IS NOT ?)
+                         OR (groups.parent_members_can_see_discussions = ? AND groups.parent_id IN (?))) ORDER BY rank DESC LIMIT $? OFFSET $?) subquery INNER JOIN discussions on subquery.discussion_id = discussions.id WHERE "discussions"."discarded_at" IS ? AND (rank > ?) ORDER BY rank DESC, last_activity_at DESC
+Syntax error found near TEXT Datatype Name (SELECT Results Clause): SELECT *, ?::text as query, ts_headline(discussions.description, plainto_tsquery(?), ?) as blurb FROM (SELECT "discussion_search_vectors"."discussion_id", "discussion_search_vectors"."search_vector", ts_rank_cd(?, search_vector, plainto_tsquery(?)) as rank FROM "discussion_search_vectors" INNER JOIN "discussions" ON "discussions"."id" = "discussion_search_vectors"."discussion_id" LEFT OUTER JOIN groups on discussions.group_id = groups.id LEFT OUTER JOIN discussion_readers dr ON dr.discussion_id = discussions.id AND (dr.user_id = ? ) WHERE (search_vector @@ plainto_tsquery(?)) AND (
+                         (discussions.group_id in (?)) OR
+                         (dr.id IS NOT ? AND dr.revoked_at IS ? AND dr.inviter_id IS NOT ?)
+                         OR (groups.parent_members_can_see_discussions = ? AND groups.parent_id IN (?))) ORDER BY rank DESC LIMIT $? OFFSET $?) subquery INNER JOIN discussions on subquery.discussion_id = discussions.id WHERE "discussions"."discarded_at" IS ? AND (rank > ?) ORDER BY rank DESC, last_activity_at DESC
+Syntax error found near TEXT Datatype Name (SELECT Results Clause): SELECT *, ?::text as query, ts_headline(discussions.description, plainto_tsquery(?), ?) as blurb FROM (SELECT "discussion_search_vectors"."discussion_id", "discussion_search_vectors"."search_vector", ts_rank_cd(?, search_vector, plainto_tsquery(?)) as rank FROM "discussion_search_vectors" INNER JOIN "discussions" ON "discussions"."id" = "discussion_search_vectors"."discussion_id" LEFT OUTER JOIN groups on discussions.group_id = groups.id LEFT OUTER JOIN discussion_readers dr ON dr.discussion_id = discussions.id AND (dr.user_id = ? ) WHERE (search_vector @@ plainto_tsquery(?)) AND (
+                         (discussions.group_id in (?)) OR
+                         (dr.id IS NOT ? AND dr.revoked_at IS ? AND dr.inviter_id IS NOT ?)
+                         OR (groups.parent_members_can_see_discussions = ? AND groups.parent_id IN (?))) ORDER BY rank DESC LIMIT $? OFFSET $?) subquery INNER JOIN discussions on subquery.discussion_id = discussions.id WHERE "discussions"."discarded_at" IS ? AND (rank > ?) ORDER BY rank DESC, last_activity_at DESC
+Syntax error found near TEXT Datatype Name (SELECT Results Clause): SELECT *, ?::text as query, ts_headline(discussions.description, plainto_tsquery(?), ?) as blurb FROM (SELECT "discussion_search_vectors"."discussion_id", "discussion_search_vectors"."search_vector", ts_rank_cd(?, search_vector, plainto_tsquery(?)) as rank FROM "discussion_search_vectors" INNER JOIN "discussions" ON "discussions"."id" = "discussion_search_vectors"."discussion_id" LEFT OUTER JOIN groups on discussions.group_id = groups.id LEFT OUTER JOIN discussion_readers dr ON dr.discussion_id = discussions.id AND (dr.user_id = ? ) WHERE (search_vector @@ plainto_tsquery(?)) AND (
+                         (discussions.group_id in (?)) OR
+                         (dr.id IS NOT ? AND dr.revoked_at IS ? AND dr.inviter_id IS NOT ?)
+                         OR (groups.parent_members_can_see_discussions = ? AND groups.parent_id IN (?))) ORDER BY rank DESC LIMIT $? OFFSET $?) subquery INNER JOIN discussions on subquery.discussion_id = discussions.id WHERE "discussions"."discarded_at" IS ? AND (rank > ?) ORDER BY rank DESC, last_activity_at DESC
+Syntax error found near TEXT Datatype Name (SELECT Results Clause): SELECT *, ?::text as query, ts_headline(discussions.description, plainto_tsquery(?), ?) as blurb FROM (SELECT "discussion_search_vectors"."discussion_id", "discussion_search_vectors"."search_vector", ts_rank_cd(?, search_vector, plainto_tsquery(?)) as rank FROM "discussion_search_vectors" INNER JOIN "discussions" ON "discussions"."id" = "discussion_search_vectors"."discussion_id" LEFT OUTER JOIN groups on discussions.group_id = groups.id LEFT OUTER JOIN discussion_readers dr ON dr.discussion_id = discussions.id AND (dr.user_id = ? ) WHERE (search_vector @@ plainto_tsquery(?)) AND (
+                         (discussions.group_id in (?)) OR
+                         (dr.id IS NOT ? AND dr.revoked_at IS ? AND dr.inviter_id IS NOT ?)
+                         OR (groups.parent_members_can_see_discussions = ? AND groups.parent_id IN (?))) ORDER BY rank DESC LIMIT $? OFFSET $?) subquery INNER JOIN discussions on subquery.discussion_id = discussions.id WHERE "discussions"."discarded_at" IS ? AND (rank > ?) ORDER BY rank DESC, last_activity_at DESC
+Syntax error found near TEXT Datatype Name (SELECT Results Clause): SELECT *, ?::text as query, ts_headline(discussions.description, plainto_tsquery(?), ?) as blurb FROM (SELECT "discussion_search_vectors"."discussion_id", "discussion_search_vectors"."search_vector", ts_rank_cd(?, search_vector, plainto_tsquery(?)) as rank FROM "discussion_search_vectors" INNER JOIN "discussions" ON "discussions"."id" = "discussion_search_vectors"."discussion_id" LEFT OUTER JOIN groups on discussions.group_id = groups.id LEFT OUTER JOIN discussion_readers dr ON dr.discussion_id = discussions.id AND (dr.user_id = ? ) WHERE (search_vector @@ plainto_tsquery(?)) AND (
+                         (discussions.group_id in (?)) OR
+                         (dr.id IS NOT ? AND dr.revoked_at IS ? AND dr.inviter_id IS NOT ?)
+                         OR (groups.parent_members_can_see_discussions = ? AND groups.parent_id IN (?))) ORDER BY rank DESC LIMIT $? OFFSET $?) subquery INNER JOIN discussions on subquery.discussion_id = discussions.id WHERE "discussions"."discarded_at" IS ? AND (rank > ?) ORDER BY rank DESC, last_activity_at DESC
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 291
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 291
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 291
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 291
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 299
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 299
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 299
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 299
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 303
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 303
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 303
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 303
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 257
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 257
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 257
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 257
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 265
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 265
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 265
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 265
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 262
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 262
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 262
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 262
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 308
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 308
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 308
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 308
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 269
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 269
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 269
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 269
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 316
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 316
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 316
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 316
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 320
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 320
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 320
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 320
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 313
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 313
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 313
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 313
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 238
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 238
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 238
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 238
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 246
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 246
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 246
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 246
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 255
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 255
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 255
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 255
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 243
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 243
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 243
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 243
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 250
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 250
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 250
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 250
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 221
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 221
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 221
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 221
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 229
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 229
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 229
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 229
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 233
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 233
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 233
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 233
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 325
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 325
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 325
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 325
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 226
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 226
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 226
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 226
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 337
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 337
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 337
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 337
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 274
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 274
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 274
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 274
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 330
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 330
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 330
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 330
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 282
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 282
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 282
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 282
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 286
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 286
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 286
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 286
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 279
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 279
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 279
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 279
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 290
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 290
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 290
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 290
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 301
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 301
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 301
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 301
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 295
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 295
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 295
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 295
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 302
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 302
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 302
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 302
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 256
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 256
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 256
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 256
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 298
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 298
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 298
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 298
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 267
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 267
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 267
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 267
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 333
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 333
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 333
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 333
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 264
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 264
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 264
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 264
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 268
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 268
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 268
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 268
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 304
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 304
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 304
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 304
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 321
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 321
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 321
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 321
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 270
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 270
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 270
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 270
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 261
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 261
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 261
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 261
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 251
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 251
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 251
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 251
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 234
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 234
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 234
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 234
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 287
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 287
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 287
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 287
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 338
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 338
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 338
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 338
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 300
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 300
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 300
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 300
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 266
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 266
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 266
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 266
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 317
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 317
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 317
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 317
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 247
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 247
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 247
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 247
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 230
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 230
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 230
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 230
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 334
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 334
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 334
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 334
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 283
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 283
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 283
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 283
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 307
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 307
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 307
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 307
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 318
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 318
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 318
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 318
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 315
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 315
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 315
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 315
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 312
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 312
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 312
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 312
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 319
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 319
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 319
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 319
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 248
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 248
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 248
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 248
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 245
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 245
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 245
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 245
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 254
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 254
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 254
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 254
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 249
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 249
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 249
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 249
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 242
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 242
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 242
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 242
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 220
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 220
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 220
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 220
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 237
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 237
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 237
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 237
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 231
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 231
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 231
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 231
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 228
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 228
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 228
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 228
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 232
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 232
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 232
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 232
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 225
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 225
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 225
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 225
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 324
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 324
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 324
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 324
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 332
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 332
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 332
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 332
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 335
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 335
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 335
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 335
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 336
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 336
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 336
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 336
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 329
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 329
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 329
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 329
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 263
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 263
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 263
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 263
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 314
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 314
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 314
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 314
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 227
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 227
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 227
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 227
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 244
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 244
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 244
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 244
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 331
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 331
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 331
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 331
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 273
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 273
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 273
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 273
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 280
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 280
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 280
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 280
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 285
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 285
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 285
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 285
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 284
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 284
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 284
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 284
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 278
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 278
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 278
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 278
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 297
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 297
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 297
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 297
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 281
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 281
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 281
+         ORDER BY participant_id, created_at DESC))
+Syntax error found near WITH Clause (SELECT Results Clause): UPDATE "stances" SET "latest" = $1 WHERE (id IN
+        (SELECT DISTINCT ON (participant_id) id
+         FROM stances
+         WHERE poll_id = 281
+         ORDER BY participant_id, created_at DESC))
